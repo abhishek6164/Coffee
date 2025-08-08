@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#smooth-wrapper {
+    height: 100%;
+}
+
+#smooth-content {
+    min-height: 100%;
+    will-change: transform;
+}
